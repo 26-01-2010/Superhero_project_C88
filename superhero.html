@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SUPERHERO OF VIR</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="fabric.js"></script>
+<link rel="icon" href="avenger_bg.jpg" type="image/x-icon">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body class="body_background" onload="player_update">
+	<center>
+	<h2 class="btn-primary">SUPERHERO OF VIR</h2>
+	<div id="head_info" class="btn-danger">
+		<h3>Current Width  = <span id="current_width">30</span></h3>
+		<h3>Current Height  = <span id="current_height">30</span></h3>
+    </div>
+	<canvas class="upper-canvas " width="1000" height="600" style="position: absolute; width: 1000px; height: 600px; left: 0px; top: 0px; touch-action: none; user-select: none; cursor: default;"></canvas>
+	<canvas id="myCanvas" height="600" width="800"></canvas>
+	<p class="btn-warning p">Arrow keys are used to control the superman</p>
+	<p class="btn-warning p">Keys - r to show rigth hand,<br>t to show left hand,<br>f to show face,<br>l to show legs,<br>b to show body.</p>
+	</center>
+	<script src="main.js"></script>
+</body>
+</html>
